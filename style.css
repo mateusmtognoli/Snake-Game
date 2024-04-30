@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#gameArea {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#scorePanel {
+    width: 400px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
